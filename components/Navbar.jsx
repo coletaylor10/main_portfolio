@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
+import {Link} from 'react-scroll'
 import Image from "next/image";
-import Link from "next/link";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
@@ -58,21 +58,21 @@ const Navbar = () => {
         </h1>
         <div>
           <ul style={{ color: `${linkColour}` }} className="hidden md:flex">
-            <Link href="/">
+            <Link to="home" spy={true} smooth={true} offset={0} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
             </Link>
-            <Link href="/#about">
+            <Link to="about" spy={true} smooth={true} offset={0} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">About</li>
             </Link>
-            <Link href="/#skills">
+            <Link to="skills" spy={true} smooth={true} offset={0} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">Skills</li>
             </Link>
-            <Link href="/#projects">
+            <Link to="projects" spy={true} smooth={true} offset={0} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Projects
               </li>
             </Link>
-            <Link href="/#contact">
+            <Link to="contact" spy={true} smooth={true} offset={0} duration={500}>
               <li className="ml-10 text-sm uppercase hover:border-b">
                 Contact
               </li>
