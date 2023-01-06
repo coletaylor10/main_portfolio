@@ -4,7 +4,7 @@ import cryptoImg from "../public/assets/projects/crypto.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const crypto = () => {
+const tmdb = () => {
   return (
     <div className=" w-full">
       <div className=" w-screen h-[30vh] lg:h-[40vh] relative">
@@ -17,8 +17,8 @@ const crypto = () => {
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4">
-          <h2 className="py-2">Property Finder</h2>
-          <h3>React JS / Tailwind / Firebase</h3>
+          <h2 className="py-2">TMDB Search</h2>
+          <h3>Next.js / React / Tailwind</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -26,14 +26,11 @@ const crypto = () => {
           <p>Project</p>
           <h2 className="py-4">Overview</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum ipsum
-            suscipit non quam, maxime officia nihil nobis eveniet aspernatur
-            eius vel, distinctio optio labore explicabo cupiditate, ut minima
-            aliquam! Dicta incidunt consectetur ea ad possimus dolorum inventore
-            esse accusantium eveniet! Aliquam ex officiis architecto suscipit
-            laudantium perspiciatis impedit placeat laborum.
+            I've created a website that displays and allows you to search for movies on TMDB using their API. I used the TMDB documentation to learn how to setup the API requests and then turn that data into a JSON file which i could manipulate into something the website could use.
           </p>
-          <button className=" px-8 py-2 mt-4 mr-8">Demo</button>
+          <button className=" px-8 py-2 mt-4 mr-8">
+          <Link href="https://en.wikipedia.org/wiki/Next.js">Demo</Link>
+            </button>
           <button className=" px-8 py-2 mt-4 ">Code</button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl border border-[#ffef0f] rounded-xl py-4">
@@ -69,4 +66,4 @@ const crypto = () => {
   );
 };
 
-export default crypto;
+export default tmdb;
