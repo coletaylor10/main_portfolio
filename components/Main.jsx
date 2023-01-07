@@ -24,6 +24,7 @@ const main = () => {
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
             <div className=" rounded-full border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaLinkedinIn className="text-[#ffef0f]" />
+              <a href="https://www.linkedin.com/in/cole-taylor-288aa3190/"></a>
             </div>
             <div className=" rounded-full border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaGithub className="text-[#ffef0f]" />

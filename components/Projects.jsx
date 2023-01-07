@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import netflixImg from "../public/assets/projects/netflix.jpg"
+import tmdbImg from "..public/assets/projects/TMDBSearch.png"
 
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
@@ -16,7 +17,7 @@ const Projects = () => {
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
             title="TMDB Search"
-            backgroundImg={netflixImg}
+            backgroundImg={tmdbImg}
             projectUrl="/tmdb"
           />
           <ProjectItem

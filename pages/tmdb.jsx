@@ -3,6 +3,7 @@ import Image from "next/image";
 import cryptoImg from "../public/assets/projects/crypto.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
+import tmdbImg from "..public/assets/projects/TMDBSearch.png"
 
 const tmdb = () => {
   return (
@@ -13,7 +14,7 @@ const tmdb = () => {
           className="absoulute z-1"
           layout="fill"
           objectFit="cover"
-          src={cryptoImg}
+          src={tmdbImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-4">
@@ -47,13 +48,10 @@ const tmdb = () => {
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-white py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Firebase
+                <RiRadioButtonFill className="pr-1" /> Vercel
               </p>
               <p className="text-white py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Google API
-              </p>
-              <p className="text-white py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Zillow API
+                <RiRadioButtonFill className="pr-1" /> TMDB API
               </p>
             </div>
           </div>
