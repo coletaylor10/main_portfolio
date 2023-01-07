@@ -26,7 +26,7 @@ const tmdb = () => {
           <p>Project</p>
           <h2 className="py-4">Overview</h2>
           <p>
-            I've created a website that displays and allows you to search for movies on TMDB using their API. I used the TMDB documentation to learn how to setup the API requests and then turn that data into a JSON file which i could manipulate into something the website could use.
+            I have created a website that displays and allows you to search for movies on TMDB using their API. I used the TMDB documentation to learn how to setup the API requests and then turn that data into a JSON file which i could manipulate into something the website could use.
           </p>
           <button className=" px-8 py-2 mt-4 mr-8">
           <Link href="https://en.wikipedia.org/wiki/Next.js">Demo</Link>
