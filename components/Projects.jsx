@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import netflixImg from "../public/assets/projects/netflix.jpg"
-import tmdbImg from "../public/assets/projects/tmdbsearch.jpg"
+import tmdbImg from "./public/assets/projects/tmdbsearch.jpg"
 
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
