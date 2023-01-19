@@ -30,9 +30,11 @@ const tmdb = () => {
             I have created a website that displays and allows you to search for movies on TMDB using their API. I used the TMDB documentation to learn how to setup the API requests and then turn that data into a JSON file which i could manipulate into something the website could use.
           </p>
           <button className=" px-8 py-2 mt-4 mr-8">
-          <Link href="https://en.wikipedia.org/wiki/Next.js">Demo</Link>
+          <Link href="https://tmdb-search.vercel.app/">Demo</Link>
             </button>
-          <button className=" px-8 py-2 mt-4 ">Code</button>
+          <button className=" px-8 py-2 mt-4 ">
+            <Link href="https://github.com/coletaylor10/tmdb_search">Code</Link>
+            </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl border border-[#ffef0f] rounded-xl py-4">
           <div className="p-2">
