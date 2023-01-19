@@ -44,7 +44,7 @@ const About = () => {
             grow as a developer.
           </p>
           <Link to="projects" spy={true} smooth={true} offset={0} duration={500}>
-              <li className="py-2 text-[#ffef0f] underline cursor-pointer">
+              <li className="py-2 text-[#ffef0f] underline cursor-pointer list-none">
               See my projects
               </li>
             </Link>

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import netflixImg from "../public/assets/projects/netflix.jpg"
+import randomImg from "../public/assets/projects/randomPass.jg"
 import tmdbImg from "../public/assets/projects/TMDBSearch.jpg"
 
 import Link from "next/link";
@@ -22,8 +22,8 @@ const Projects = () => {
           />
           <ProjectItem
             title="Random Password Generator"
-            backgroundImg={netflixImg}
-            projectUrl="/crypto"
+            backgroundImg={randomImg}
+            projectUrl="/random"
           />
         </div>
       </div>
