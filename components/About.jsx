@@ -18,7 +18,6 @@ const About = () => {
             About
           </p>
           <h2 className="py-4">Who I Am</h2>
-          <p className=" py-2 text-gray-50">Im Built different</p>
           <p className=" py-2 text-gray-50">
             I am Cole Taylor, a full stack developer with expertise in multiple
             programming languages and frameworks. I have experience in both
