@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import cryptoImg from "../public/assets/projects/crypto.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 import tmdbImg from "../public/assets/projects/TMDBSearch.jpg"

@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import randomImg from "../public/assets/projects/randomPass.jg"
+import randomImg from "../public/assets/projects/randomPass.jpg"
 import tmdbImg from "../public/assets/projects/TMDBSearch.jpg"
 
 import Link from "next/link";
