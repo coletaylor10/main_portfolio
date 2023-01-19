@@ -2,6 +2,7 @@ import React from "react";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import {AiOutlineMail} from "react-icons/ai"
+import Link from 'next/link'
 
 const main = () => {
   return (
@@ -23,8 +24,9 @@ const main = () => {
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4 ">
             <div className=" rounded-full border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+              <Link href="https://www.linkedin.com/in/cole-taylor-288aa3190/">
               <FaLinkedinIn className="text-[#ffef0f]" />
-              <a href="https://www.linkedin.com/in/cole-taylor-288aa3190/"></a>
+              </Link>
             </div>
             <div className=" rounded-full border-2 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
               <FaGithub className="text-[#ffef0f]" />
